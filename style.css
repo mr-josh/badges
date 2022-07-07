@@ -8,6 +8,14 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+@media (max-width: 420px) {
+  body {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    padding: 2.5rem 0.5rem;
+  }
+}
+
 .badge {
   --size: 10rem;
   position: relative;
