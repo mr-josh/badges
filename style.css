@@ -97,6 +97,12 @@ body {
   margin: .25rem 0;
 }
 
+.badge-inf .date {
+  position: absolute;
+  bottom: .5rem;
+  right: .75rem;
+}
+
 .badge:hover .badge-inf {
   opacity: 1;
 }
